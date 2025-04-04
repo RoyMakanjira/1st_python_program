@@ -13,7 +13,6 @@ def division(r , y):
      return "it can't ERROR !!!"
     return r / y
 
-
 print("How do you want to calculate")
 print("1. Subtraction")
 print("2. Addition")
@@ -29,9 +28,19 @@ if choice == "1":
    print(f"the result is: {subtraction(number_1,number_2)} ")
 elif choice == "2":
    print(f"the result is: {addition(number_1,number_2)} ")
+
 elif choice == "3":
    print(f"the result is :{multiplication(number_1,number_2)}")
 elif choice == "4":
    print(f"the result is : {division(number_1,number_2)}")
 else:
    print("invalid !!!!!!!!!!!!!")
+
+
+# def greet():
+#       print("Hello Rooooooooooooooy ")
+# greet()
+
+# def greet(name , surname):
+#       print(f"hie {name} {surname}")
+# greet("Roy","Makanjira") 
